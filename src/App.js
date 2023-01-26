@@ -52,7 +52,7 @@ function App({ user, signOut}) {
         cursor: "pointer",
       },
       onClick: () => {
-        saveFile();
+        // saveFile();
         setShowForm(!showForm);
       }
     },
@@ -126,7 +126,7 @@ function App({ user, signOut}) {
             overrides={showDetailsOverride}
             style={{
               textAlign: "left",
-              margin: "1rem",
+              margin: "2rem",
             }}
           />
         )}
